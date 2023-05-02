@@ -29,7 +29,7 @@ therefore VFFVA can be an alternative to access new CPLEX versions <br />
 through its C API - instructions on how to achieve this can be found <br />
 here: https://github.com/marouenbg/VFFVA <br />
 
-The following script was succesfully ran in less than 24 hours using a <br />
+The updated mCADRE script in this project was succesfully ran in less than 24 hours using a <br />
 MacBook Pro 2.8 GHz Quad-Core Intel Core i7, <br />
 Radeon Pro 555 2GB Intel HD Graphics 630 1536 MB GPU, <br />
 16 GB 2133 MHz LPDDR3 RAM. (OSX: Ventura) <br />
