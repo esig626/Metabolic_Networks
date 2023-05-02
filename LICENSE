@@ -1,21 +1,82 @@
-MIT License
+MIT License: 
 
-Copyright (c) 2023 Elias Vera-Siguenza
+% This document is based on the original mCADRE workflow.
+% Briefly, the mCADRE is an algorithm aimed at reconstructing genome-scale 
+% metabolic models for human tissues. It involves a data-driven approach 
+% to create tissue-specific metabolic models. The algorithm utilizes gene 
+% expression data, protein-protein interaction networks, and metabolic 
+% pathway information to create tissue-specific metabolic models. 
+% The resulting models can be used to predict metabolic fluxes, 
+% simulate metabolic perturbations, and identify potential drug targets 
+% specific to each tissue. The mCADRE approach allows for a comprehensive 
+% understanding of tissue-specific metabolism. From its inception, it was 
+% originally designed for use with the global knowledgebase of metabolic 
+% functions categorized for the human genome (Human Recon 1). 
+% Wang, Y., Eddy, J.A. & Price, N.D. Reconstruction of genome-scale 
+% metabolic models for 126 human tissues using mCADRE. 
+% BMC Syst Biol 6, 153 (2012). https://doi.org/10.1186/1752-0509-6-153
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% The purpose of this MATLAB library is to provide an updated version of 
+% the original mCADRE. Our library has been developed to improve its 
+% applicability and it has been optimised for its implementation with the 
+% Recon3D metabolic network model (the latest iteration of Recon models). 
+% This updated version also implements very fast flux variability analysis, 
+% which allows for more efficient prediction of metabolic fluxes and 
+% identification of metabolic targets. By incorporating the Recon3D model, 
+% the updated mCADRE algorithm includes additional metabolic reactions and 
+% pathways, leading to a more comprehensive analysis of metabolic networks 
+% through a computationally less expensive algorithm; i.e., in less time. 
+% Overall, the updated mCADRE algorithm is expected to optimise an already  
+% accurate and efficient tool for predicting metabolic behavior and 
+% identifying potential drug targets.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The authors of this updated version aknowledge the original authors' work
+% by merely stating that their contributions are just an update and not a
+% means to change the original and itended outcome of the algorithm. 
+% We thus adhere to the MIT License: 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+% Copyright (c) 2023 Elias Vera-Siguenza
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of the updated mCADRE version and associated documentation files 
+% (the "Software"), to deal in the Software without restriction, including 
+% without limitation the rights to use, copy, modify, merge, publish, 
+% distribute, sublicense, and/or sell copies of the Software, and to permit 
+% persons to whom the Software is furnished to do so, subject to the 
+% following conditions:
+% 
+% The above copyright notice and this permission notice shall be included 
+% in all copies or substantial portions of the Software.
+% 
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+% THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+% FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+% DEALINGS IN THE SOFTWARE.
+% 
+% By using, modifying, or distributing the updated mCADRE version, 
+% Licensee acknowledges and agrees that Licensor shall not be liable for 
+% any damages or losses, including but not limited to direct, indirect, 
+% incidental, or consequential damages, arising from or related to the use 
+% or inability to use the updated mCADRE version, even if Licensor has been 
+% advised of the possibility of such damages.
+% This license agreement does not create any form of partnership, agency, 
+% or employment relationship between Licensor and Licensee. The license 
+% granted herein is not transferable or assignable by Licensee without the 
+% prior written consent of Licensor.
+% By using, modifying, or distributing the updated mCADRE version, 
+% Licensee acknowledges and agrees to indemnify and hold Licensor harmless 
+% from any claims, damages, losses, or expenses, including reasonable 
+% attorneys' fees, arising from Licensee's use or distribution of the 
+% updated mCADRE version.
+% 
+% This Agreement shall be governed by and construed in accordance with the 
+% laws of United Kingdom, without regard to its conflict of law provisions.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
