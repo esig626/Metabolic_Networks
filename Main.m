@@ -43,54 +43,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% The authors of this updated version aknowledge the original authors' work
-% by merely stating that their contributions are just an update and not a
-% means to change the original and itended outcome of the algorithm. 
-% We thus adhere to the MIT License: 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Copyright (c) 2023 Elias Vera-Siguenza
-% 
-% Permission is hereby granted, free of charge, to any person obtaining a copy
-% of the updated mCADRE version and associated documentation files 
-% (the "Software"), to deal in the Software without restriction, including 
-% without limitation the rights to use, copy, modify, merge, publish, 
-% distribute, sublicense, and/or sell copies of the Software, and to permit 
-% persons to whom the Software is furnished to do so, subject to the 
-% following conditions:
-% 
-% The above copyright notice and this permission notice shall be included 
-% in all copies or substantial portions of the Software.
-% 
-% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS 
-% OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
-% THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
-% FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
-% DEALINGS IN THE SOFTWARE.
-% 
-% By using, modifying, or distributing the updated mCADRE version, 
-% Licensee acknowledges and agrees that Licensor shall not be liable for 
-% any damages or losses, including but not limited to direct, indirect, 
-% incidental, or consequential damages, arising from or related to the use 
-% or inability to use the updated mCADRE version, even if Licensor has been 
-% advised of the possibility of such damages.
-% This license agreement does not create any form of partnership, agency, 
-% or employment relationship between Licensor and Licensee. The license 
-% granted herein is not transferable or assignable by Licensee without the 
-% prior written consent of Licensor.
-% By using, modifying, or distributing the updated mCADRE version, 
-% Licensee acknowledges and agrees to indemnify and hold Licensor harmless 
-% from any claims, damages, losses, or expenses, including reasonable 
-% attorneys' fees, arising from Licensee's use or distribution of the 
-% updated mCADRE version.
-% 
-% This Agreement shall be governed by and construed in accordance with the 
-% laws of United Kingdom, without regard to its conflict of law provisions.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %% Requirements: 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
