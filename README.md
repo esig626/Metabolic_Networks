@@ -27,7 +27,7 @@ Note: <br />
 IBM CPLEX has stopped its support for MATLAB since version 12.10, <br />
 therefore VFFVA can be an alternative to access new CPLEX versions <br />
 through its C API - instructions on how to achieve this can be found <br />
-herre: https://github.com/marouenbg/VFFVA <br />
+here: https://github.com/marouenbg/VFFVA <br />
 
 The following script was succesfully ran in less than 24 hours using a <br />
 MacBook Pro 2.8 GHz Quad-Core Intel Core i7, <br />
