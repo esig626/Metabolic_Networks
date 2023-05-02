@@ -34,6 +34,28 @@ MacBook Pro 2.8 GHz Quad-Core Intel Core i7, <br />
 Radeon Pro 555 2GB Intel HD Graphics 630 1536 MB GPU, <br />
 16 GB 2133 MHz LPDDR3 RAM. (OSX: Ventura) <br />
 
+Summary of system state at the time of solving:
+
+			Support 	   LP 	 MILP 	   QP 	 MIQP 	  NLP 	   EP <br />
+	------------------------------------------------------------------------------<br />
+	gurobi       	active        	    1 	    1 	    1 	    1 	    - 	    -<br />
+	ibm_cplex    	active        	    1 	    1 	    1 	    1 	    - 	    -<br />
+	tomlab_cplex 	active        	    0 	    0 	    0 	    0 	    - 	    -<br />
+	glpk         	active        	    1 	    1 	    - 	    - 	    - 	    -<br />
+	mosek        	active        	    0 	    - 	    0 	    - 	    - 	    0<br />
+	matlab       	active        	    1 	    - 	    - 	    - 	    1 	    -<br />
+	pdco         	active        	    1 	    - 	    1 	    - 	    - 	    1<br />
+	quadMinos    	active        	    1 	    - 	    - 	    - 	    - 	    -<br />
+	dqqMinos     	active        	    1 	    - 	    1 	    - 	    - 	    -<br />
+	cplex_direct 	active        	    0 	    0 	    0 	    - 	    - 	    -<br />
+	cplexlp      	active        	    1 	    - 	    - 	    - 	    - 	    -<br />
+	qpng         	passive       	    - 	    - 	    1 	    - 	    - 	    -<br />
+	tomlab_snopt 	passive       	    - 	    - 	    - 	    - 	    0 	    -<br />
+	lp_solve     	legacy        	    1 	    - 	    - 	    - 	    - 	    -<br />
+	------------------------------------------------------------------------------<br />
+	Total        	-             	    9 	    3 	    5 	    2 	    1 	    1<br />
+
+ + Legend: - = not applicable, 0 = solver not compatible or not installed, 1 = solver installed.<br />
 
 # Contributors
 Elias Vera-Siguenza (e.vera-siguenza@bham.ac.uk)
