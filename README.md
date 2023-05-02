@@ -136,4 +136,4 @@ attorneys' fees, arising from Licensee's use or distribution of the  <br />
 updated mCADRE version. <br />
 
 This Agreement shall be governed by and construed in accordance with the  <br />
-laws of United Kingdom, without regard to its conflict of law provisions <br />.
+laws of United Kingdom, without regard to its conflict of law provisions. <br />
