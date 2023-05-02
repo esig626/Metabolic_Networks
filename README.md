@@ -60,5 +60,80 @@ Summary of system state at the time of solving:
 # Contributors
 Elias Vera-Siguenza (e.vera-siguenza@bham.ac.uk)
 
-# License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+# MIT License:  
+This document is based on the original mCADRE workflow. <br />
+Briefly, the mCADRE is an algorithm aimed at reconstructing genome-scale  <br />
+metabolic models for human tissues. It involves a data-driven approach  <br />
+to create tissue-specific metabolic models. The algorithm utilizes gene  <br />
+expression data, protein-protein interaction networks, and metabolic  <br />
+pathway information to create tissue-specific metabolic models.  <br />
+The resulting models can be used to predict metabolic fluxes,  <br />
+simulate metabolic perturbations, and identify potential drug targets  <br />
+specific to each tissue. The mCADRE approach allows for a comprehensive  <br />
+understanding of tissue-specific metabolism. From its inception, it was  <br />
+originally designed for use with the global knowledgebase of metabolic  <br />
+functions categorized for the human genome (Human Recon 1).  <br />
+Wang, Y., Eddy, J.A. & Price, N.D. Reconstruction of genome-scale  <br />
+metabolic models for 126 human tissues using mCADRE.  <br />
+BMC Syst Biol 6, 153 (2012). https://doi.org/10.1186/1752-0509-6-153 <br />
+
+The purpose of this MATLAB library is to provide an updated version of  <br />
+the original mCADRE. Our library has been developed to improve its  <br />
+applicability and it has been optimised for its implementation with the  <br />
+Recon3D metabolic network model (the latest iteration of Recon models).  <br />
+This updated version also implements very fast flux variability analysis,  <br />
+which allows for more efficient prediction of metabolic fluxes and  <br />
+identification of metabolic targets. By incorporating the Recon3D model,  <br />
+the updated mCADRE algorithm includes additional metabolic reactions and  <br />
+pathways, leading to a more comprehensive analysis of metabolic networks  <br />
+through a computationally less expensive algorithm; i.e., in less time.  <br />
+Overall, the updated mCADRE algorithm is expected to optimise an already   <br />
+accurate and efficient tool for predicting metabolic behavior and  <br />
+identifying potential drug targets. <br />
+
+The authors of this updated version aknowledge the original authors' work <br />
+by merely stating that their contributions are just an update and not a <br />
+means to change the original and itended outcome of the algorithm.  <br />
+We thus adhere to the MIT License:  <br />
+
+Copyright (c) 2023 Elias Vera-Siguenza <br />
+
+Permission is hereby granted, free of charge, to any person obtaining a copy <br />
+of the updated mCADRE version and associated documentation files  <br />
+(the "Software"), to deal in the Software without restriction, including  <br />
+without limitation the rights to use, copy, modify, merge, publish,  <br />
+distribute, sublicense, and/or sell copies of the Software, and to permit  <br />
+persons to whom the Software is furnished to do so, subject to the  <br />
+following conditions: <br />
+
+The above copyright notice and this permission notice shall be included  <br />
+in all copies or substantial portions of the Software. <br />
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS  <br />
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, <br />
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL  <br />
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER <br />
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING  <br />
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER  <br />
+DEALINGS IN THE SOFTWARE. <br />
+
+By using, modifying, or distributing the updated mCADRE version,  <br />
+Licensee acknowledges and agrees that Licensor shall not be liable for  <br />
+any damages or losses, including but not limited to direct, indirect,  <br />
+incidental, or consequential damages, arising from or related to the use  <br />
+or inability to use the updated mCADRE version, even if Licensor has been  <br />
+advised of the possibility of such damages. <br />
+
+This license agreement does not create any form of partnership, agency,  <br />
+or employment relationship between Licensor and Licensee. The license  <br />
+granted herein is not transferable or assignable by Licensee without the  <br />
+prior written consent of Licensor. <br />
+
+By using, modifying, or distributing the updated mCADRE version,  <br />
+Licensee acknowledges and agrees to indemnify and hold Licensor harmless  <br />
+from any claims, damages, losses, or expenses, including reasonable  <br />
+attorneys' fees, arising from Licensee's use or distribution of the  <br />
+updated mCADRE version. <br />
+
+This Agreement shall be governed by and construed in accordance with the  <br />
+laws of United Kingdom, without regard to its conflict of law provisions <br />.
