@@ -1,12 +1,17 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % VFFVA TEST!
 % Load the model you need
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Preload Parameters
+% Change these parameters according to your CPU: 
 nCores=3;
 nThreads=2;
 ex='';
-%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Create an .mps Model
 path = '/Path/To/Your/Files';
 cd(path)
 modelmps = model;
@@ -15,7 +20,9 @@ convertProblem(modelmps, 0, output_filename);
 modelmps = 'model.mps';
 cd ..
 
-%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Run VFFVA!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 disp('Hold on to your seat, I am initialising the system ...')
 %Set install folder of MPI
@@ -36,5 +43,6 @@ disp('I am done! I will now fetch your results, hang tight...')
 resultFile=[modelmps(1:end-4) 'output.csv'];
 results=readtable(resultFile);
 opt=[results.minFlux,results.maxFlux];
-
+disp('All good!')
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clearvars -except opt model
