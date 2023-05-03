@@ -32,6 +32,7 @@ MATLAB R2021a Update 3 (9.10.9.1684407) 64-bit (maci64) <br />
 COnstraint-Based Reconstruction (COBRA - 2.39.2) <br />
 IBM CPLEX_Studio <br />
 MATLAB Bioinformatics Toolbox <br />
+Affymetrix® CDF Data File Formats: The CDF file describes the layout for an Affymetrix GeneChip array. <br /> 
 Parallel Computing Toolbox <br />
 Obtain the Recon3D COBRA model MATLAB structure <br />
 from: https://www.vmh.life/#downloadview <br />
