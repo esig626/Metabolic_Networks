@@ -23,6 +23,12 @@ Lawrence Livermore National Security, LLC. <br />
 Produced at the Lawrence Livermore National Laboratory. <br />
 Written by Marc Griesemer and Ali Navid.
 
+A compiled version of the Very Fast Flux Variability Analysis (VFFVA). <br />
+File: veryfastFVA.c Version 0.4 <br />
+Licence CC BY 4.0 : Free to share and modify. <br />
+Author : Marouen Ben Guebila - marouen.benguebila@uni.lu <br />
+based on Open MP/MPI parallel optimization of IBM's CPlex fastFVA. <br />
+
 # How to Use
 The in-silico model reconstruction files can be accessed and used by running the provided scripts <br />
 along with the latest version of the human metabolic network matrix (Recon3D). <br />
