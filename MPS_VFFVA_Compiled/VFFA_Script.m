@@ -7,7 +7,7 @@ nCores=3;
 nThreads=2;
 ex='';
 %%
-path = '/Users/elias/Documents/MATLAB/Pipeline_mCadre/Clean_Version/mCADRE_New/MPS';
+path = '/Path/To/Your/Files';
 cd(path)
 modelmps = model;
 output_filename = 'model';
