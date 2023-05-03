@@ -8,7 +8,20 @@ combines aspects from an updated mCADRE & Metabotools algorithms, the novel redH
 
 The project aims to reproduce vital metabolic behaviours of in-vitro models in in-silico models, <br />
 including cell growth predictions, respiration rates, and observations that suggest cross-shuttling <br />
-of redox-active metabolites between cells.
+of redox-active metabolites between cells.<br />
+
+This repository contains: <br /> 
+The mCADRE algorithm updated and optimised by Elias Vera-Siguenza. <br />
+Originally Created by Wang et al. <br />
+Wang, Y., Eddy, J.A. & Price, N.D. <br />
+Reconstruction of genome-scale metabolic models for 126 human tissues using mCADRE. <br />
+BMC Syst Biol 6, 153 (2012). https://doi.org/10.1186/1752-0509-6-1 <br />
+
+The Multi-Objective Flux Analysis Library. <br />
+Copyright (c) 2021, <br />
+Lawrence Livermore National Security, LLC. <br />
+Produced at the Lawrence Livermore National Laboratory. <br />
+Written by Marc Griesemer and Ali Navid.
 
 # How to Use
 The in-silico model reconstruction files can be accessed and used by running the provided scripts <br />
