@@ -26,7 +26,7 @@ Written by Marc Griesemer and Ali Navid. https://doi.org/10.1101/2021.05.20.4450
 A compiled version of the Very Fast Flux Variability Analysis (VFFVA). <br />
 File: veryfastFVA.c Version 0.4 <br />
 Licence CC BY 4.0 : Free to share and modify. <br />
-Author : Marouen Ben Guebila - marouen.benguebila@uni.lu <br />
+Author : Marouen Ben Guebila - https://doi.org/10.1186/s12859-020-03711-2 <br />
 based on Open MP/MPI parallel optimization of IBM's CPlex fastFVA. <br />
 
 # How to Use
