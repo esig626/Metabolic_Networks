@@ -21,7 +21,7 @@ The Multi-Objective Flux Analysis Library. <br />
 Copyright (c) 2021, <br />
 Lawrence Livermore National Security, LLC. <br />
 Produced at the Lawrence Livermore National Laboratory. <br />
-Written by Marc Griesemer and Ali Navid.
+Written by Marc Griesemer and Ali Navid. https://doi.org/10.1101/2021.05.20.445041 <br />
 
 A compiled version of the Very Fast Flux Variability Analysis (VFFVA). <br />
 File: veryfastFVA.c Version 0.4 <br />
