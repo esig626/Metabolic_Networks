@@ -29,6 +29,13 @@ Licence CC BY 4.0 : Free to share and modify. <br />
 Author : Marouen Ben Guebila - https://doi.org/10.1186/s12859-020-03711-2 <br />
 based on Open MP/MPI parallel optimization of IBM's CPlex fastFVA. <br />
 
+We also direct the reader of our article "Mathematical reconstruction of the metabolic <br /> 
+network in an in-vitro multiple myeloma model" to the <br />
+redHuman repository: https://github.com/EPFL-LCSB/redhuman <br />
+Files and instructions on how to use the routine and libraries can be <br />
+found there,
+
+
 # How to Use
 The in-silico model reconstruction files can be accessed and used by running the provided scripts <br />
 along with the latest version of the human metabolic network matrix (Recon3D). <br />
