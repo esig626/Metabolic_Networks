@@ -1,10 +1,10 @@
 
-NOTE:
+## NOTE:
 
-Models generated. (Non-Parametrised) <\b >
-For parametrised version please contact:  <\b >
-e.vera-siguenza@bham.ac.uk  <\b >
+Models generated. (Non-Parametrised) <br />
+For parametrised version please contact:  <br />
+e.vera-siguenza@bham.ac.uk  <br />
 
-BMMSC :  Bone Marrow Mesenchymal Stem Cell <\b >
-MM : Multiple Myeloma Cell  <\b >
-Co-culture: BMMSC + MM   <\b >
+BMMSC :  Bone Marrow Mesenchymal Stem Cell <br />
+MM : Multiple Myeloma Cell  <br />
+Co-culture: BMMSC + MM   <br />
